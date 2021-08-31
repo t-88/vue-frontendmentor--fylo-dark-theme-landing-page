@@ -1,0 +1,23 @@
+@import "./includeMedia";
+
+$tablet: 600;
+$phone: 360;
+$pc: 1823;
+$min-width: 320;
+$breakpoints: ("pc":1823px,"min-width":320px,"phone": 360px,"tablet": 600px);
+
+
+@function applyMath($max_val,$min_val,$max_width,$min_width,$val: px){
+    @return calc( #{$min_val}#{$val} + #{$max_val - $min_val} * ((100vw - #{$min_width}px)) / #{$max_width - $min_width});
+}
+/*
+    @include media("<=pc",">tablet") {
+    
+    }
+    @include media("<=tablet",">phone") {
+    
+    }
+    @include media("<=phone",">0") {
+        
+    }
+*/

@@ -1,0 +1,30 @@
+{
+  "name": "vue-frontendmentor--fylo-dark-theme-landing-page",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://t-88.github.io/vue-frontendmentor--fylo-dark-theme-landing-page",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "gh-pages": "^3.2.3",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "vue-loader-v16": "^16.0.0-beta.5.4",
+    "vue-svg-loader": "^0.17.0-beta.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
